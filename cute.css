@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Simonetta", serif;
+}
+
+body {
+    background-color: #FFD1DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+img {
+    margin: 20px 0 0;
+}
+
+button {
+    margin: 20px;
+    background-color: pink;
+    border: none;
+    font-weight: bold;
+    padding: 20px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
